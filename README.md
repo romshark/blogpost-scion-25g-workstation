@@ -235,8 +235,10 @@ throughout the article.
 
 Eventually, I found the Mellanox NVIDIA BlueField-2 2×25G DPUs
 (Data Processing Units, a.k.a. "smart NICs") to be a good deal on
-[piospartslap.de](https://www.piospartslap.de/) and ordered 3 cards for just 339,91€
+[piospartslap.de](https://www.piospartslap.de/) and ordered 3 cards for just 289,92€
 plus 49,99€ for the express delivery (a total of CHF 318.09).
+After reaching out, they kindly agreed to a discounted price of
+115€ per card (excluding VAT).
 
 ![Mellanox NVidia BlueField-2 NICs order](img/mellanox_nics_order.png)
 
