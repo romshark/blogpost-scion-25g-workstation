@@ -685,8 +685,8 @@ During installation, I accidentally left a standoff in the wrong place.
 The motherboard's backplate drew first blood - and I almost cried.
 
 <p align="center">
-  <img src="image-1763113770920.jpg" width="45%">
-  <img src="mainboard_backplate_scratch.jpg" width="45%">
+  <img src="img/case_standoff.jpg" width="45%">
+  <img src="img/mainboard_backplate_scratch.jpg" width="45%">
 </p>
 
 ## Cooling and Airflow
