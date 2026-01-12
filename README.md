@@ -384,6 +384,9 @@ That, plus CHF ~170,- for the Phanteks case, makes a total of CHF 3210,-.
 It could probably have been cheaper, but I really wanted to get most of the work done
 before heading off on my three-week vacation.
 
+However, at the time of writing, just months later, the price of the RAM kit went up by 232%!
+Memory supply seems to have gotten a lot worse.
+
 The first components to arrive were the BlueField-2 NICs, followed shortly by the ASUS mainboard, as expected. A bit later, the CPU cooler and the SSD arrived as well.
 
 ---
