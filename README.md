@@ -1,4 +1,4 @@
-# SCION 25G Workstation
+# SCION 25 Gbit/s Workstation
 
 ![Empty LGA4677 CPU socket](img/lga4677_socket.webp)
 
@@ -233,9 +233,9 @@ throughout the article.
 
 ### NICs
 
-Eventually, I found the Mellanox NVIDIA BlueField-2 2×25G DPUs
-(Data Processing Units, a.k.a. "smart NICs") to be a good deal on
-[piospartslap.de](https://www.piospartslap.de/) and ordered 3 cards for just 289,92€
+Eventually, I found the Mellanox NVIDIA BlueField-2 DPUs
+(Data Processing Units, a.k.a. "smart NICs") with dual 25 Gbit/s ports to be a good deal
+on [piospartslap.de](https://www.piospartslap.de/) and ordered 3 cards for just 289,92€
 plus 49,99€ for the express delivery (a total of CHF 318.09).
 After reaching out, they kindly agreed to a discounted price of
 115€ per card (excluding VAT).
