@@ -864,7 +864,7 @@ when it sends ICMPv6 packets, which reveal its MAC.
 
 ![Server is running, do not turn off](img/server_is_running.webp)
 
-## First tests
+## First AF_XDP Tests
 
 I started writing AF_XDP experiments, and you can find the code at:
 [github.com/romshark/afxdp-bench-go](https://github.com/romshark/afxdp-bench-go)
