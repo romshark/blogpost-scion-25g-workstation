@@ -102,7 +102,7 @@ parallelization would cause unacceptable levels of packet reordering.*
 The SCION OSS border router is a Linux user-space program.
 It relies solely on the Linux Networking Stack.
 
-![Schematic for the packet flow paths through Linux networking and *tables by Jan Engelhardt](img/linux_networking_stack.webp)
+![Schematic for the packet flow paths through Linux networking and *tables by Jan Engelhardt](img/linux_networking_stack.svg)
 
 *Schematic for the packet flow paths through Linux networking and tables by Jan Engelhardt*
 
