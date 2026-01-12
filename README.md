@@ -8,7 +8,7 @@ smart NICs, which will ultimately power the SCION Association's new 25 Gbit/s
 testbench workstation!
 
 I built it to develop and test a new AF_XDP underlay for the
-[SCION OSS](https://github.com/scionproto/scion) has received significant dataplane
+[SCION OSS](https://github.com/scionproto/scion) has received significant data plane
 performance improvements over the past years, but still requires further work.
 
 In this article, I'll walk you through the entire planning, building, and
@@ -51,10 +51,10 @@ which relies on the commercial implementation from
 [Anapaya Systems AG](https://www.anapaya.net/) that currently provides up to 100 Gbit/s
 border router solutions. The free open source implementation
 [github.com/scionproto/scion](https://github.com/scionproto/scion) received numerous
-dataplane performance improvements over the past years but is still lagging behind.
+data plane performance improvements over the past years but is still lagging behind.
 
 If we want to do video calls (and similar high-bandwidth use cases) over
-SCION OSS en masse - the dataplane performance needs to improve.
+SCION OSS en masse - the data plane performance needs to improve.
 Thanks to funding by the [NLnet Foundation](https://nlnet.nl/) we've been working on a new
 faster [AF_XDP](https://docs.kernel.org/networking/af_xdp.html) border router underlay.
 
@@ -125,7 +125,7 @@ substantial packet reordering, with packets leaving the system in a different an
 unpredictable order. High frequency of reordering degrades performance and increases
 system resource usage, making this approach non-viable.
 
-The only real way to further improve the OSS Data plane performance is to bypass the Linux
+The only real way to further improve the OSS data plane performance is to bypass the Linux
 kernel's networking stack and fly by private jet:
 
 - you enter the airport (Network Interface Controller)
