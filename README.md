@@ -840,10 +840,8 @@ docker0          DOWN           00:00:00:00:00:00 <NO-CARRIER,BROADCAST,MULTICAS
 
 ## Moving To The Office
 
-The biggest challenge with our office is that it's located inside a banking
-infrastructure company's building. While they do provide a way for us to connect to
-the outside, we can't directly access anything on the inside. Unless, of course,
-we use Tailscale.
+Once the machine was moved to our office, I added it to our Tailscale account to enable
+remote access from outside the local network.
 
 To access the BMC web interface from outside the office, I configured a small Linux
 machine in the office, connected to the same switch as the workstation,
