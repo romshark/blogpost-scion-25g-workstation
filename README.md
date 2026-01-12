@@ -1,6 +1,6 @@
 # SCION 25G Workstation
 
-![Empty LGA4677 CPU socket](img/lga4677_socket.png)
+![Empty LGA4677 CPU socket](img/lga4677_socket.webp)
 
 This is an LGA4677 socket and it's about to be fitted with a 12-core Intel Xeon
 CPU to power the 64 PCIe Gen5 lanes for 3x Mellanox NVIDIA BlueField-2 Dual-25G
@@ -73,7 +73,7 @@ By contrast, today's Internet carries traffic on the order of
 On the higher end, take the Juniper "MX10008 Universal Routing Platforms" with up to
 **76.8 Tbps** (yes, terabits with twelve zeroes) of total bandwidth capacity for example
 
-![Juniper MX1000x routing platform specs](img/juniper_mx1000x.png)
+![Juniper MX1000x routing platform specs](img/juniper_mx1000x.webp)
 
 These kinds of systems support per-port line rates of 400–500 Gbit/s, depending on the
 interface configuration. Individual packet streams carried over such ports can therefore
@@ -102,7 +102,7 @@ parallelization would cause unacceptable levels of packet reordering.*
 The SCION OSS border router is a Linux user-space program.
 It relies solely on the Linux Networking Stack.
 
-![Schematic for the packet flow paths through Linux networking and *tables by Jan Engelhardt](img/linux_networking_stack.svg)
+![Schematic for the packet flow paths through Linux networking and *tables by Jan Engelhardt](img/linux_networking_stack.webp)
 
 *Schematic for the packet flow paths through Linux networking and tables by Jan Engelhardt*
 
@@ -240,7 +240,7 @@ plus 49,99€ for the express delivery (a total of CHF 318.09).
 After reaching out, they kindly agreed to a discounted price of
 115€ per card (excluding VAT).
 
-![Mellanox NVidia BlueField-2 NICs order](img/mellanox_nics_order.png)
+![Mellanox NVidia BlueField-2 NICs order](img/mellanox_nics_order.webp)
 
 Now it was time to plan out the rest of the system.
 
@@ -273,8 +273,8 @@ SAGE SE.
 
 ASUS lists a wide range of supported LGA4677 CPUs for the W790E-SAGE SE:
 
-![ASUS mainboard CPU support list page 1](img/asus_sage_se_cpusupport1.png)
-![ASUS mainboard CPU support list page 2](img/asus_sage_se_cpusupport2.png)
+![ASUS mainboard CPU support list page 1](img/asus_sage_se_cpusupport1.webp)
+![ASUS mainboard CPU support list page 2](img/asus_sage_se_cpusupport2.webp)
 
 *Frank* happened to have a Sapphire Rapids Q03J
 [engineering/qualification sample CPU](https://www.intel.com/content/www/us/en/support/articles/000056190/processors.html)
@@ -341,7 +341,7 @@ piece of metal, right?!
 
 First, consider the BlueField-2 NIC shown below.
 
-![A BlueField-2 network card in original packaging](img/bf2_card_in_origbox.jpg)
+![A BlueField-2 network card in original packaging](img/bf2_card_in_origbox.webp)
 
 These cards do not have active cooling. They are equipped only with a small, thin
 heatsink and are designed to be installed in server racks with **very noisy** high-RPM,
@@ -358,7 +358,7 @@ I did find the
 [Silverstone RM52](http://silverstonetek.com/en/product/info/server-nas/rm52/)
 to be an option worth considering:
 
-![The Silverstone RM52 system case with markings for potential fan mounting](img/silverstone_rm52.png)
+![The Silverstone RM52 system case with markings for potential fan mounting](img/silverstone_rm52.webp)
 
 Though at a price of CHF ~450 it was, to put it mildly, too expensive.
 
@@ -369,7 +369,7 @@ I finally came across the
 [Phanteks Enthoo Pro II](https://phanteks.com/product/enthoo-pro-2-server-edition-tg/)
 tower case with a very convenient fan mount:
 
-![Enthoo Pro II NIC cooling concept sketch](img/enthoo_pro2_niccooling_concept.png)
+![Enthoo Pro II NIC cooling concept sketch](img/enthoo_pro2_niccooling_concept.webp)
 
 Finally, everything except the case coolers was decided upon and ordered.
 
@@ -377,8 +377,8 @@ Finally, everything except the case coolers was decided upon and ordered.
 
 The shopping list was finally complete:
 
-![Order of RAM, CPU, PSU and Mainboard](img/order1.png)
-![Order of RAM, CPU, PSU and Mainboard](img/order2.png)
+![Order of RAM, CPU, PSU and Mainboard](img/order1.webp)
+![Order of RAM, CPU, PSU and Mainboard](img/order2.webp)
 
 That, plus CHF ~170,- for the Phanteks case, makes a total of CHF 3210,-.
 It could probably have been cheaper, but I really wanted to get most of the work done
@@ -393,13 +393,13 @@ After a significant delay, the CPU, PSU, and RAM finally showed up too.
 Even though we paid extra for earlier RAM delivery, it was still delayed - unsurprising, but disappointing nevertheless. In my experience, Digitec/Galaxus delivery time promises
 only seem to hold about 50% of the time these days.
 
-![RAM order delay message](img/ram_order_delay.png)
+![RAM order delay message](img/ram_order_delay.webp)
 
 ---
 
 The Phanteks case was also significantly delayed. Even though Galaxus initially promised delivery within **2 working days**, they later couldn't even provide an approximate delivery date! What a shame.
 
-![Phanteks case delivery delay](img/phanteks_case_delivery_date_being_clarified.png)
+![Phanteks case delivery delay](img/phanteks_case_delivery_date_being_clarified.webp)
 
 I had to start assembling the system without the case.
 
@@ -411,7 +411,7 @@ I was honestly surprised by how expensive these cables are. Domestic Swiss offer
 
 Luckily, I managed to find a few at a much lower price on [Ricardo](https://ricardo.ch)!
 
-![25G SFP28 passive DAC cables on Ricardo.ch](img/ricardo_sfp_cables.png)
+![25G SFP28 passive DAC cables on Ricardo.ch](img/ricardo_sfp_cables.webp)
 
 ## NIC Firmware Upgrade
 
@@ -431,7 +431,7 @@ quickly filled the room. After more than 11 years of service, my old machine's V
 finally given up.
 
 
-![Old machine VRM dead](img/old_pc_vrm_dead.jpg)
+![Old machine VRM dead](img/old_pc_vrm_dead.webp)
 
 Rest in peace, comrade 🪦.
 
@@ -444,7 +444,7 @@ but now I had no choice. The fans and the fat RTX 3090 with the bracket that pre
 it from bending the PCIe slot under its immense weight needed to be removed and make
 space for the tiny BlueField-2.
 
-![My new gaming PC made room for the BF-2 NIC](img/new_gaming_pc_made_room.jpg)
+![My new gaming PC made room for the BF-2 NIC](img/new_gaming_pc_made_room.webp)
 
 I also installed the new SSD and installed an Ubuntu system on it.
 
@@ -458,7 +458,7 @@ mlx5_core - over 120000 MS in pre-initializing state, aborting
 mlx5_core: mlx5_init_one failed with error code -110
 ```
 
-![mlx5_core - over 120000 MS in pre-initializing state, aborting](img/uefi_error.png)
+![mlx5_core - over 120000 MS in pre-initializing state, aborting](img/uefi_error.webp)
 
 Apparently, this is normal, especially for the very first cold boot.
 These BlueField-2 cards are not your regular network card. They're
@@ -574,19 +574,19 @@ I got a bit nervous. The last system I assembled a system was years ago. I had h
 my younger brother and it wasn't nearly as expensive as this shiny new piece of
 workstation hardware.
 
-![The ASUS Mainboard laying on its original cardboard packaging](img/mainboard_ready_for_assembly.jpg)
+![The ASUS Mainboard laying on its original cardboard packaging](img/mainboard_ready_for_assembly.webp)
 
 Before touching any component, I plugged the PSU into the wall and grounded myself on
 it to prevent static electricity from damaging the delicate circuitry. This I regularly
 repeated throughout the whole process just to be on the safe side.
 
-![grounding myself by touching the PSU that's plugged into the wall](img/grounding_through_psu.jpg)
+![grounding myself by touching the PSU that's plugged into the wall](img/grounding_through_psu.webp)
 
 For the first time in my life, I held a server-grade CPU in my hand - and I have to say, it's massive! Easily two to three times the size of a typical consumer CPU.
 
 <p align="center">
-  <img src="img/cpu_top.jpg" width="45%">
-  <img src="img/cpu_bottom.jpg" width="45%">
+  <img src="img/cpu_top.webp" width="45%">
+  <img src="img/cpu_bottom.webp" width="45%">
 </p>
 
 The installation process does differ from your regular consumer CPU, and it's
@@ -594,7 +594,7 @@ explained in full detail [here](https://www.asus.com/me-en/support/faq/1050029/)
 
 I installed the CPU + cooler, RAM, M.2 SSD, and connected the power wiring:
 
-![CPU+cooler, RAM and SSD installed on the mainboard](img/cpu_installed.jpg)
+![CPU+cooler, RAM and SSD installed on the mainboard](img/cpu_installed.webp)
 
 By the way, the RAM was installed incorrectly, as I later found out and fixed
 according to the manual:
@@ -616,12 +616,12 @@ to the manual, means `CPU DXE initialization is started`. At that point, I assum
 something had to be wrong with either the CPU or RAM. I reseated both multiple times, wasting several hours in the process, but without any success.
 
 
-![Q-code table from the manual](img/q_code_table.png) 
+![Q-code table from the manual](img/q_code_table.pn.webp 
 
 I even installed the old GTX TITAN GPU, which I previously confirmed to have
 worked on another system:
 
-![GTX TITAN GPU installed on the ASUS mainboard](img/gtx_titan_on_sage_se.jpg)
+![GTX TITAN GPU installed on the ASUS mainboard](img/gtx_titan_on_sage_se.webp)
 
 and even though its LEDs lit up I was left with a frustrating "no signal" message on
 the HDMI connected display. At this point, I started suspecting the worst.
@@ -630,7 +630,7 @@ As you might have guessed - I didn't get a good night's sleep.
 The next day, however, I had to confront the sheer size of my own stupidity. If you look
 again at the photo of the installed GPU above, you'll notice that - for reasons unknown even to myself - I had installed it in PCIe slot 2, which is not supported by the Intel Xeon W5-2455X.
 
-![ASUS mainboard schematic stating that PCIe slots 2, 4 and 6 are disabled for W-2400](img/sage_se_schematic.png)
+![ASUS mainboard schematic stating that PCIe slots 2, 4 and 6 are disabled for W-2400](img/sage_se_schematic.webp)
 
 And it turns out, Q-code `64` was just the *last code* displayed and didn't actually indicate any fault at all. In fact, everything was okay.
 
@@ -639,7 +639,7 @@ So I moved the graphics card to PCIe slot 1 and was finally able to enter the UE
 Some time later, I once again realized that I needed to pay closer attention
 to the manual:
 
-![Manual stating that M.2_1 and M.2_2 slots are disabled on W-2400 series](img/disabled_m2slots.png)
+![Manual stating that M.2_1 and M.2_2 slots are disabled on W-2400 series](img/disabled_m2slots.webp)
 
 ```
 M.2_1 and M.2_2 slots will be disabled once an Intel® Xeon® W-2400 Series
@@ -657,7 +657,7 @@ independent of the actual host system and control almost everything remotely,
 even if the host system is down or corrupted.
 It even gives you screen-sharing remote control.
 
-![ASPEED AST2600 KVM](img/aspeed_kvm.png)
+![ASPEED AST2600 KVM](img/aspeed_kvm.webp)
 
 ### The BMC Password Bug
 
@@ -687,8 +687,8 @@ During installation, I accidentally left a standoff in the wrong place.
 The motherboard's backplate drew first blood - and I almost cried.
 
 <p align="center">
-  <img src="img/case_standoff.jpg" width="45%">
-  <img src="img/mainboard_backplate_scratch.jpg" width="45%">
+  <img src="img/case_standoff.webp" width="45%">
+  <img src="img/mainboard_backplate_scratch.webp" width="45%">
 </p>
 
 ## Cooling and Airflow
@@ -696,16 +696,16 @@ The motherboard's backplate drew first blood - and I almost cried.
 The system was finally mounted in the chassis, and the Enthoo Pro II's brackets allowed
 me to mount the NIC fan quite elegantly, even if it couldn't be placed perfectly close.
 
-![System fully assembled but without the case fans](img/system_complete_but_without_fans.jpg)
+![System fully assembled but without the case fans](img/system_complete_but_without_fans.webp)
 
 But one last piece of the puzzle was still missing: air circulation.
 So I came up with a concept:
 
-![Airflow and fan placement concept](img/airflow_concept.png)
+![Airflow and fan placement concept](img/airflow_concept.webp)
 
 and a new shopping list:
 
-![List of Noctua fans to buy](img/noctua_fans_shopping_list.png)
+![List of Noctua fans to buy](img/noctua_fans_shopping_list.webp)
 
 I decided to go with the more expensive Noctua fans again to keep the noise profile as
 low as possible. The NF-A12x25 G2 PWM fans are optimized for static pressure, and one of
@@ -713,23 +713,23 @@ them would be responsible for providing sufficient airflow through the NIC heats
 
 A short while later, they arrived:
 
-![Fans arrived](img/fans_arrived.jpg)
+![Fans arrived](img/fans_arrived.webp)
 
 And I had *lots* of fun installing them. Just kidding - it was tedious work,
 and my back hurt so much afterward that not even a good hot bath helped.
 
-![The mess of installing the fans](img/installing_fans.jpg)
+![The mess of installing the fans](img/installing_fans.webp)
 
 Once again, I grossly underestimated the effort required for cable management,
 planning, and execution. I even had to reroute and rewire parts of the setup after
 realizing that one connector sat far too close to a very hot heatsink -
 clearly asking for trouble.
 
-![A connector sitting too close to a hot heatsink](img/too_close_for_comfort.jpg)
+![A connector sitting too close to a hot heatsink](img/too_close_for_comfort.webp)
 
 But in the end, I was really happy with how it turned out:
 
-![System completely assembled](img/complete_system.jpg)
+![System completely assembled](img/complete_system.webp)
 
 Cable management was decent. Temperatures were great and sustainable,
 and even at 30-50% fan speed the system was barely audible, even in complete silence.
@@ -836,7 +836,7 @@ bottom_2         UP             00:00:00:00:00:00 <BROADCAST,MULTICAST,UP,LOWER_
 docker0          DOWN           00:00:00:00:00:00 <NO-CARRIER,BROADCAST,MULTICAST,UP> 
 ```
 
-![NICs Interconnected via SFP28 cables](img/cards_interconnections.jpg)
+![NICs Interconnected via SFP28 cables](img/cards_interconnections.webp)
 
 ## Moving To The Office
 
@@ -859,7 +859,7 @@ Unfortunately, it seems like the ASPEED AST2600 BMC doesn't speak proper
 There is however a short window of time right after a cold boot of the system
 when it sends ICMPv6 packets, which reveal its MAC.
 
-![Server is running, do not turn off](img/server_is_running.png)
+![Server is running, do not turn off](img/server_is_running.webp)
 
 ## First tests
 
